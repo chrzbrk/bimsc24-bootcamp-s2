@@ -1,0 +1,18 @@
+html{
+    background-color:whitesmoke;
+    color:black;
+}
+
+#navbar{
+    height: 50px;
+}
+
+#flex{
+    display: flex;
+}
+
+.container{
+    border-style: dotted;
+    border-color:darkblue;
+    border-width: 1px;
+}
