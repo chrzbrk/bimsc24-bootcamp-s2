@@ -1,18 +1,49 @@
 html{
-    background-color:whitesmoke;
+    background-color:whites;
     color:black;
+    font-family: Helvetica;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
 }
 
 #navbar{
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    background-color:cadetblue;
+}
+
+#sidebar{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    width: 80%;
 }
 
 #flex{
     display: flex;
+    height: calc(100vh - 50px);
 }
 
 .container{
     border-style: dotted;
     border-color:darkblue;
     border-width: 1px;
+}
+
+.press{
+    position: absolute;
+    top: 20%;
 }
